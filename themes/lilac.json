@@ -286,6 +286,16 @@
             "font_style": null,
             "font_weight": null
           },
+          "keyword.function": {
+            "color": "#a29dfaff",
+            "font_style": null,
+            "font_weight": null
+          },
+          "keyword.modifier": {
+            "color": "#b657ffff",
+            "font_style": null,
+            "font_weight": null
+          },
           "label": {
             "color": "#b657ffff",
             "font_style": null,

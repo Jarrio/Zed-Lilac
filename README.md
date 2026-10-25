@@ -19,7 +19,7 @@ Zed's theme format has no equivalent for some of Lilac's VS Code colours:
 - **No-folder status bar.** Zed has no separate status bar colour for a window with no folder open.
 - **Underlined class names.** Zed's `font_style` supports italic but not underline.
 - **Panels.** Zed uses one `panel.background` for side and bottom docks. The port uses the VS Code side bar colour, `#151217`. The terminal keeps its own `#000000` background.
-- **Keyword colours.** VS Code gives declaration keywords (`const`, `let`, `function`, `def`, `class`) `#a29dfa` and control keywords `#8e6da6`. The port maps this to Zed's `keyword.declaration` and `keyword.definition` captures, which JavaScript, TypeScript and Python emit. Rust and other grammars don't tag declaration keywords separately, so all their keywords get `#8e6da6`.
+- **Keyword colours.** VS Code gives declaration keywords (`const`, `let`, `function`, `def`, `class`) `#a29dfa` and control keywords `#8e6da6`. The port maps this to Zed's `keyword.declaration` and `keyword.definition` captures, which JavaScript, TypeScript and Python emit. The Haxe extension tags `function` as `keyword.function` and modifiers (`public`, `static`, `inline`) as `keyword.modifier`; the port colours these `#a29dfa` and `#b657ff` to match VS Code's `storage.type` and `storage.modifier`. Haxe's `var` stays `#8e6da6` because the grammar tags it as a plain keyword. Rust and other grammars don't tag declaration keywords separately, so all their keywords get `#8e6da6`.
 
 ## Recommended settings
 
