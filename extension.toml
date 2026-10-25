@@ -1,0 +1,7 @@
+id = "lilac-theme"
+name = "Lilac Theme"
+version = "0.1.0"
+schema_version = 1
+authors = ["Jarrio"]
+description = "Zed port of Shubham Saudolla's Lilac, a dark theme with pastel colours."
+repository = "https://github.com/Jarrio/Zed-Lilac"
