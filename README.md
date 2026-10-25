@@ -21,10 +21,11 @@ Zed's theme format has no equivalent for some of Lilac's VS Code colours:
 
 ## Recommended settings
 
-A theme can't change layout or spacing. These settings in `~/.config/zed/settings.json` move panels closer to VS Code's layout:
+A theme can't change layout or spacing. These settings in `~/.config/zed/settings.json` move panels closer to VS Code's layout. `unstable.ui_density` adds padding to tabs, buttons and the status bar; Zed marks it unstable, so it may be renamed or removed.
 
 ```json
 {
+  "unstable.ui_density": "comfortable",
   "project_panel": { "dock": "left" },
   "outline_panel": { "dock": "left" },
   "git_panel": { "dock": "left" },
