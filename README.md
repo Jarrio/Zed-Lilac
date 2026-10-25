@@ -2,6 +2,8 @@
 
 A Zed port of [Lilac](https://github.com/shubham-saudolla/Lilac-Theme) by Shubham Saudolla, a dark theme with pastel colours. Colours come from the VS Code version's `themes/Lilac-color-theme.json`.
 
+![Lilac in Zed, showing a Haxe file with the project panel docked on the right](assets/screenshot.png)
+
 ## Install (development)
 
 1. In Zed, run `zed: install dev extension` from the command palette.
